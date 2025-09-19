@@ -21,4 +21,9 @@ public class BankAccount {
     public double checkBalance() {
         return balance;
     }
+    public double calculateInterest(double ratePercent) {
+    // simple interest for one year on current balance
+    return (balance * ratePercent) / 100.0;
+}
+
 }
