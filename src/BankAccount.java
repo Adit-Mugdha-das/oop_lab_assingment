@@ -10,7 +10,9 @@ public class BankAccount {
     }
 
     public void deposit(double amount) {
+      feature/transaction-history
         if (amount > 1) balance += amount;
+main
     }
 
     public boolean withdraw(double amount) {
@@ -21,4 +23,9 @@ public class BankAccount {
     public double checkBalance() {
         return balance;
     }
+    public double calculateInterest(double ratePercent) {
+    // simple interest for one year on current balance
+    return (balance * ratePercent) / 100.0;
+}
+
 }
