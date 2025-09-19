@@ -10,9 +10,7 @@ public class BankAccount {
     }
 
     public void deposit(double amount) {
-      feature/transaction-history
-        if (amount > 1) balance += amount;
-main
+        if (amount > 0) balance += amount;
     }
 
     public boolean withdraw(double amount) {
